@@ -1,3 +1,21 @@
+.fa {
+  font-size: 1em;
+}
+
+#formComplete {
+  margin-top: 5em;
+  text-align: center;
+  border-radius: 1em;
+  border: 2px solid rgb(253, 251, 251);
+  color: rgb(55, 201, 149);
+}
+
+.flash-message
+{
+    z-index: 10000;
+    position: relative;
+}
+
 #cont {
   background-color: rgb(253, 251, 251);
   /*position: absolut;*/
@@ -84,12 +102,14 @@
 #butt {
   text-align: center;
   padding-top: 30px;
+
 }
 
 button {
   font-size: 1em;
   background-color: rgb(55, 201, 149);
   border-color: rgb(55, 201, 149);
+  border-radius: 5px;
   color: white;
 
 }

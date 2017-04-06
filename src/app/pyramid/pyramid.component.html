@@ -1,6 +1,7 @@
-<div id="cont">
+<flash-messages></flash-messages>
+<div id="cont" *ngIf="showForm">
   <div class="triangle row1">
-    <select name="topic" [(ngModel)]="answers.q1" class="topic" required autogrow>
+    <select name="topic" [(ngModel)]="answers.q1" class="topic" required>
       <option value="Choose" disabled selected>Choose a Topic</option>
       <option value="Friendship">Friendship</option>
       <option value="Extended Family">Extended Family</option>
@@ -190,7 +191,7 @@
     </div>
   </div>
   <div class="row2">
-    <div class="triangle4">
+    <div class="triangle4 dropup">
       <select name="topic" [(ngModel)]="answers.q7" class="topic" required autogrow>
         <option value="Choose" disabled selected>Choose a Topic</option>
         <option value="Friendship">Friendship</option>
@@ -222,7 +223,7 @@
       </select>
     </div>
     <div class="triangle4">
-      <select name="topic" [(ngModel)]="answers.q8" class="topic" required autogrow>
+      <select name="topic" [(ngModel)]="answers.q8" class="topic  " required autogrow>
         <option value="Choose" disabled selected>Choose a Topic</option>
         <option value="Friendship">Friendship</option>
         <option value="Extended Family">Extended Family</option>
@@ -253,7 +254,7 @@
       </select>
     </div>
     <div class="triangle4">
-      <select name="topic" [(ngModel)]="answers.q9" class="topic" required autogrow>
+      <select name="topic" [(ngModel)]="answers.q9" class="topic  " required autogrow>
         <option value="Choose" disabled selected>Choose a Topic</option>
         <option value="Friendship">Friendship</option>
         <option value="Extended Family">Extended Family</option>
@@ -284,7 +285,7 @@
       </select>
     </div>
     <div class="triangle4">
-      <select name="topic" [(ngModel)]="answers.q10" class="topic" required autogrow>
+      <select name="topic" [(ngModel)]="answers.q10" class="topic  " required autogrow>
         <option value="Choose" disabled selected>Choose a Topic</option>
         <option value="Friendship">Friendship</option>
         <option value="Extended Family">Extended Family</option>
@@ -317,7 +318,7 @@
   </div>
   <div class="row2">
     <div class="triangle5">
-      <select name="topic" [(ngModel)]="answers.q11" class="topic" required autogrow>
+      <select name="topic" [(ngModel)]="answers.q11" class="topic  " required autogrow>
         <option value="Choose" disabled selected>Choose a Topic</option>
         <option value="Friendship">Friendship</option>
         <option value="Extended Family">Extended Family</option>
@@ -348,7 +349,7 @@
       </select>
     </div>
     <div class="triangle5">
-      <select name="topic" [(ngModel)]="answers.q12" class="topic" required autogrow>
+      <select name="topic" [(ngModel)]="answers.q12" class="topic  " required autogrow>
         <option value="Choose" disabled selected>Choose a Topic</option>
         <option value="Friendship">Friendship</option>
         <option value="Extended Family">Extended Family</option>
@@ -379,7 +380,7 @@
       </select>
     </div>
     <div class="triangle5">
-      <select name="topic" [(ngModel)]="answers.q13" class="topic" required autogrow>
+      <select name="topic" [(ngModel)]="answers.q13" class="topic  " required autogrow>
         <option value="Choose" disabled selected>Choose a Topic</option>
         <option value="Friendship">Friendship</option>
         <option value="Extended Family">Extended Family</option>
@@ -410,7 +411,7 @@
       </select>
     </div>
     <div class="triangle5">
-      <select name="topic" [(ngModel)]="answers.q14" class="topic" required autogrow>
+      <select name="topic" [(ngModel)]="answers.q14" class="topic  " required autogrow>
         <option value="Choose" disabled selected>Choose a Topic</option>
         <option value="Friendship">Friendship</option>
         <option value="Extended Family">Extended Family</option>
@@ -441,7 +442,7 @@
       </select>
     </div>
     <div class="triangle5">
-      <select name="topic" [(ngModel)]="answers.q15" class="topic" required autogrow>
+      <select name="topic" [(ngModel)]="answers.q15" class="topic  " required autogrow>
         <option value="Choose" disabled selected>Choose a Topic</option>
         <option value="Friendship">Friendship</option>
         <option value="Extended Family">Extended Family</option>
@@ -476,4 +477,11 @@
   <div id="butt">
     <button type="submit" (click)="submit()">Submit Form</button>
   </div>
+</div>
+
+<div id="formComplete" *ngIf="showComplete">
+  <h1>Thanks!</h1>
+  <h3>Your answers have been submitted successfuly
+    <span><i class="fa fa-smile-o"></i></span>
+  </h3>
 </div>

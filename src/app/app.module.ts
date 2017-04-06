@@ -7,6 +7,7 @@ import { routes        } from './app.routing';
 import { Observable } from 'rxjs/Rx';
 import { SurveyService } from './survey.service';
 import { DatePickerModule } from 'ng2-datepicker';
+import { FlashMessagesModule } from 'angular2-flash-messages';
 
 import { AppComponent } from './app.component';
 import { PyramidComponent } from './pyramid/pyramid.component';
@@ -24,6 +25,7 @@ import { RegisterComponent } from './register/register.component';
     FormsModule,
     HttpModule,
     DatePickerModule,
+    FlashMessagesModule,
     RouterModule.forRoot(routes),
   ],
   providers: [SurveyService],
