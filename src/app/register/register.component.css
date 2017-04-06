@@ -1,0 +1,142 @@
+#cont {
+  background-color: rgb(253, 251, 251);
+  position: absolute;
+  margin-left: 1.5em;
+  margin-top: 0.3em;
+  width: 1400px;
+}
+
+#pyramid {
+  /*margin-top: 5em;*/
+  padding-top: 10em;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 140px solid rgb(255, 93, 87);
+}
+
+.triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 140px solid rgb(255, 184, 0);
+  display: inline-block;
+}
+
+.triangle3 {
+	width: 0;
+	height: 0;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 140px solid rgb(239, 233, 0);
+  display: inline-block;
+}
+
+.triangle4 {
+	width: 0;
+	height: 0;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 140px solid rgb(164, 222, 82);
+  display: inline-block;
+}
+
+.triangle5 {
+	width: 0;
+	height: 0;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 140px solid rgb(172, 135, 196);
+  display: inline-block;
+  margin-top: 0px;
+}
+
+
+.triangle:hover {
+  border-bottom: 140px solid red;
+}
+
+.triangle2:hover {
+  border-bottom: 140px solid orange;
+}
+
+.triangle3:hover {
+  border-bottom: 140px solid yellow;
+}
+
+.triangle4:hover {
+  border-bottom: 140px solid green;
+}
+
+.triangle5:hover {
+  border-bottom: 140px solid purple;
+}
+
+.row1 {
+  margin: 0 auto;
+}
+
+.row2 {
+  text-align: center;
+}
+
+#topHead {
+
+}
+
+#butt {
+  text-align: center;
+  padding-top: 30px;
+}
+
+button {
+  font-size: 1em;
+  background-color: rgb(55, 201, 149);
+  border-color: rgb(55, 201, 149);
+  color: white;
+
+}
+
+.topic {
+  text-align: center;
+  margin-top: 117px;
+  margin-left: -102px;
+  font-size: 12px;
+}
+
+
+
+body {
+    background-color: #eee;
+}
+
+.container {
+  position: relative;
+  width: 560px;
+  background-color: rgb(236, 238, 242);
+  margin: 10em auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 0.3em;
+
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+    padding-right: 2em;
+
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
