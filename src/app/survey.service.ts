@@ -5,7 +5,8 @@ import { Observable } from 'rxjs/Rx';
 
 @Injectable()
 export class SurveyService {
-  BASE_URL: string = 'http://localhost:3000';
+  // BASE_URL: string = 'http://localhost:3000';
+  BASE_URL: string = 'https://pre-session-survey.herokuapp.com';
 
   public user: any;
 

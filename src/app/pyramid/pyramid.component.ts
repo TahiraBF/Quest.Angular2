@@ -49,14 +49,14 @@ export class PyramidComponent implements OnInit {
         if (result){
           console.log("result: ", result)
           this.showComplete = !this.showComplete;
-          this.showForm = !this.showForm; 
+          this.showForm = !this.showForm;
         } else {
           console.log("no result")
         }
       },
       (error) => {
         if(error.status === 401) {
-          this._flashMessagesService.show("Please fill all fields", {cssClass: "alert-danger", timeout:3000 })
+          this._flashMessagesService.show("Please fill all fields", {cssClass: "alert-danger", timeout:1000 })
         }
       }
     );
