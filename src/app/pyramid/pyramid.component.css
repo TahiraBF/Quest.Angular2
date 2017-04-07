@@ -18,81 +18,104 @@
 
 #cont {
   background-color: rgb(253, 251, 251);
-  /*position: absolut;*/
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .triangle {
+  margin: auto;
 	width: 0;
 	height: 0;
-	border-left: 120px solid transparent;
-	border-right: 120px solid transparent;
-	border-bottom: 140px solid rgb(255, 93, 87);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 130px solid #D00A1C;
 }
 
 .triangle2 {
 	width: 0;
 	height: 0;
-	border-left: 120px solid transparent;
-	border-right: 120px solid transparent;
-	border-bottom: 140px solid rgb(255, 184, 0);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 130px solid #EC5A12;
   display: inline-block;
 }
 
 .triangle3 {
 	width: 0;
 	height: 0;
-	border-left: 120px solid transparent;
-	border-right: 120px solid transparent;
-	border-bottom: 140px solid rgb(239, 233, 0);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 130px solid #FFE00C;
   display: inline-block;
 }
 
 .triangle4 {
 	width: 0;
 	height: 0;
-	border-left: 120px solid transparent;
-	border-right: 120px solid transparent;
-	border-bottom: 140px solid rgb(164, 222, 82);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 130px solid #34CE00;
   display: inline-block;
 }
 
 .triangle5 {
 	width: 0;
 	height: 0;
-	border-left: 120px solid transparent;
-	border-right: 120px solid transparent;
-	border-bottom: 140px solid rgb(172, 135, 196);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 130px solid #3E13AC;
   display: inline-block;
-  margin-top: 0px;
+  /*margin-top: 0px;*/
 }
 
 
-.triangle:hover {
-  border-bottom: 140px solid red;
+.row1:hover {
+  background-color: #FB5393;
 }
 
-.triangle2:hover {
-  border-bottom: 140px solid orange;
+.row2:hover {
+  background-color: #FB6F53 ;
 }
 
-.triangle3:hover {
-  border-bottom: 140px solid yellow;
+.row3:hover {
+  background-color: #FBFB53;
 }
 
-.triangle4:hover {
-  border-bottom: 140px solid green;
+.row4:hover {
+  background-color: #53FB77;
 }
 
-.triangle5:hover {
-  border-bottom: 140px solid purple;
+.row5:hover {
+  background-color: #9053FB;
 }
 
 .row1 {
-  margin: 0 auto;
+  text-align: center;
+  background-color: #FEA9B1;
 }
 
 .row2 {
   text-align: center;
+  background-color: #FFCDA1;
+}
+
+.row3 {
+  text-align: center;
+  background-color: #FFF5B3;
+
+}
+
+.row4 {
+  text-align: center;
+  background-color: #DDFFD2;
+
+}
+
+.row5 {
+  text-align: center;
+  background-color: #DCCFFE;
+
 }
 
 #topHead {
@@ -116,7 +139,7 @@ button {
 
 .topic {
   text-align: center;
-  margin-top: 117px;
-  margin-left: -102px;
+  margin-top: 108px;
+  margin-left: -85px;
   font-size: 12px;
 }
